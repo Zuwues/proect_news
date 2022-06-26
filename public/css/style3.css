@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.logom p{
+    font-size: 35px;
+}
+.menu-o{
+    text-decoration: none;
+    color: #000000;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 80px;
+    background-color: #646060;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.menu-o:hover{
+    color: #3d9680;
+    transition: 0.3s;
+}
+.logo-n{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.content{
+}
+
+.logom{
+    display: flex;
+    align-items: center;
+}
+.content-news{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.posts{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #00795a;
+
+}
+
+.posts2{
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 60px;
+    color: rgb(177, 172, 172);
+
+}
+
+
+.text34, .textar {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.subm {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subm:hover {
+    background-color: #45a049;
+}
+
+.container3 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+
+.named{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+.posts3{
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 130px;
+    margin-left: 240px;
+    color: #4bb69b;
+
+}
+
+
+.content-posts{
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
+    height: 300px;
+    background-color: #312f2f;
+}
+
+.top{
+    border-radius: 5px;
+    
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.fgh{
+    background: url(../imeg/img_avatar.png) no-repeat;
+    width:120px;
+    height:120px;
+    background-size: cover;
+}
+
+.boxed{
+    width: 400px;
+    height: 400px;
+    border: red;
+}
